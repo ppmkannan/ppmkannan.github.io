@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+    background: url(background.jpg);
+    background-repeat: no-repeat;
+    background-size: fill;
+    min-width: 300px;
+    font-family: 'Baloo Tammudu', cursive;
+    height: 100%;
+}
+
+input.form-control{
+    height: 45px;
+}
+
+input.form-control:focus{
+    /* outline: none;
+    border: none; */
+    box-shadow: inset 0 -1px 0 #ddd;
+}
+
+.form-holder{
+    background: #fb6542;
+    margin-top: 150px;
+    border-radius: 5px;
+    height: 300px;
+    padding: 30px 0 0 0;
+    box-shadow: 0px 2px 35px 8px #2a3132;
+}
+
+.button-class{
+    width: 40%;
+    margin: 5px auto;
+    padding: auto auto;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background: gray;
+    }
+    .form-holder{
+        border-radius: 0px;
+        /* border: 2px solid blue; */
+        margin: 20% 5px;
+    }
+}

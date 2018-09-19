@@ -1,0 +1,87 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.row{
+    margin: 100px 0 0;
+    /* background: linear-gradient(90deg,  #f1c40f  ,#f1c40f ,#ddaa1e); */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a{
+    display: block;
+    width: 100%;
+}
+
+.minibox{
+    height: 100px;
+    /* background: violet; */
+    box-sizing: border-box;
+    /* float: left; */
+    padding: 0px;
+    margin: 5px;
+    /* border-bottom: 2px solid red; */
+    border-radius: 10px;
+    background: linear-gradient(90deg,  #f1c40f  ,#f1c40f ,#ddaa1e);
+}
+
+.minibox:hover{
+    background: linear-gradient(90deg, #ffa801  , #f1c40f  ,#f1c40f ,#ddaa1e);
+    border: 2px solid violet;
+    
+}
+
+
+.minibox:hover .miniboxtext{
+    margin: 32px 98px;
+}
+
+.miniboximage{
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+}
+
+a .minibox .miniboxtext{
+    position: absolute;
+    margin: 34px 100px;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+#home-page-button{
+    text-decoration: none;
+    padding: 10px 25px;
+    /* border-image: linear-gradient(to right, red 50% ,#c56cf0 75%) 2; */
+    color: #7d5fff;
+    width: 240px;
+    margin: 50px auto;
+    font-size: 25px;
+    border: 2px solid #7d5fff;
+    border-radius: 5px;
+    
+}
+
+#home-page-button:hover{
+    /* transition: background-image 2s ease-in; */
+    background-image: linear-gradient(45deg, #7d5fff ,#c56cf0 );
+    color: whitesmoke;
+    border: 0px;
+    padding: 12px 27px;
+    
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: rgb(173, 216, 230);
+    }
+
+    a .minibox .miniboxtext{
+        position: absolute;
+        margin: 34px 10px;
+        font-family: cursive;
+        font-size: 20px;
+    }
+}

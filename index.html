@@ -6,94 +6,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="icon.png" type="image/x-icon">
-    <link href="css/style.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        body {
-            /* background-color: #BDC3C7; */
-            background: linear-gradient(90deg, #fbc531 ,#f1c40f,#e1b12c,#ddaa1e);
-            background-repeat: repeat-y;
-            background-size: fill;
-            filter: blur(0.2px);
-        }
 
-        .container {
-            height: 500px;
-            width: 400px;
-            background-color: white;
-            border: 2px solid black;
-            border-radius: 5px;
-            box-shadow: 10px 10px 2px gray;
-            /* z-index: 5; */
-        }
-
-        .propic {
-            height: 150px;
-            width: 150px;
-            border: 1px solid blueviolet;
-            border-radius: 50%;
-            margin-top: -18%;
-            position: relative;
-        }
-
-        .coverpic {
-            height: 200px;
-            width: 396px;
-            margin-left: -15px;
-            position: relative;
-        }
-
-        .name {
-            color: black;
-            font-family: 'Times New Roman', Times, serif;
-            margin-top: -2%;
-        }
-
-        ul {
-            list-style-type: none;
-            overflow: hidden;
-            margin-top: 30px;
-            margin-left: -20px;
-            margin-right: -30px;
-        }
-
-        li {
-            float: left;
-            padding-right: 50px;
-            font-size: 35px;
-            color: #bab7b6;
-        }
-
-        a {
-            color: #bab7b6;
-        }
-
-        li :hover {
-            color: black;
-            transition: color 1s ease;
-        }
-
-        figcaption {
-            font-size: 15px;
-            margin-top: -10px;
-        }
-
-        span {
-            cursor: pointer;
-        }
-        #particles-js{
-            position: absolute;
-            left: 0%;
-            top: 0%;
-            background-size: cover;
-            margin: 0%;
-            width: 100%;
-            height: 100%;
-            z-index: -1;
-        }
-    </style>
+    <link href="style/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -102,45 +20,24 @@
             <img src="back.jpg" alt="Cover Picture" class="coverpic">
             <img src="propic.jpg" alt="Profile Picture" class="propic">
             <div class="name">
-                <h2>Sri PPM KANNAN</h2>
+                <h2>PPM KANNAN</h2>
                 <h2>Web Developer</h2>
             </div>
-            <div>
-                <ul>
-                    <li>
-                        <figure>
-                            <span class="glyphicon glyphicon-home"></span>
-                            <figcaption>Home</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <span class="glyphicon glyphicon-globe"></span>
-                            <figcaption>Web</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-
-                            <span class="glyphicon glyphicon-list"></span>
-                            <figcaption><a href="project.html">Projects</a></figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure>
-                            <a href="mailto:ppmkannan404@gmail.com"><span class="glyphicon glyphicon-envelope"></span></a>
-                            <figcaption>Mail</figcaption>
-                        </figure>
-                    </li>
-                    <li>
-                        <i class="far fa-clone"></i>
-                    </li>
-                </ul>
+            <div class="my-works">
+                <a href="myworks.html" id="my-works">
+                    <span class="glyphicon glyphicon-list"></span> <span>My Works</span>
+                </a>
             </div>
+            <div class="contact-div">
+                <a href="myworks.html" id="contact-link">
+                    <span class="glyphicon glyphicon-hand-right"></span> <span>Contact</span>
+                </a>
+            </div>
+
         </div>
         <div id="particles-js"></div>
     </div>
-    
+
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
 </body>
