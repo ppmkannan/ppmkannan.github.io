@@ -158,12 +158,14 @@ span {
     border: 2px solid #b700fff3;
     border-radius: 0 0 5px 5px;
     padding: 5px;
+    font-size: 15px;
+
 }
 
 #contact-link:hover {
     color: #b700fff3;
     transition: color 1s ease;
-    background: linear-gradient(90deg, #fbc531, white, #fbc531)
+    background: linear-gradient(90deg, #fbc531, white, #fbc531);
         /* background: linear-gradient(90deg, #cd84f1 , white, #cd84f1 ) */
 }
 
