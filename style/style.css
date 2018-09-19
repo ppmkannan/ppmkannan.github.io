@@ -59,3 +59,8 @@ body {
     padding: 10px;
     margin-bottom: 20px;
 }
+
+#particles-js{
+    position: absolute;
+    /* background-size: cover; */
+}
