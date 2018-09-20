@@ -84,4 +84,12 @@ a .minibox .miniboxtext{
         font-family: cursive;
         font-size: 20px;
     }
+    #home-page-button{
+        font-size: 15px;
+        width: 170px;
+    }
+
+    a .minibox:hover .miniboxtext{
+        margin: 34px 5px;
+    }
 }
