@@ -73,7 +73,7 @@ a .minibox .miniboxtext{
     
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 576px) {
     body {
         background-color: rgb(173, 216, 230);
     }
@@ -85,7 +85,7 @@ a .minibox .miniboxtext{
         font-size: 20px;
     }
     #home-page-button{
-        font-size: 15px;
+        font-size: 10px;
         width: 170px;
     }
 
