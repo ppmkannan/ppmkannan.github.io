@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: 10px auto;
+}
+
+.slot {
+    height: 120px;
+    border: none;
+}
+
+.slot:hover {
+    border: 6px solid white;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.slot:hover .whitepalette,
+.slot:hover .purplepalette {
+    display: block;
+    opacity: 1.0;
+}
+
+.whitepalette {
+    margin-top: 40px;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+}
+
+.purplepalette {
+    margin-top: 45px;
+    width: 100%;
+    padding: 5px;
+    height: 30px;
+    color: purple;
+    border: 1px solid purple;
+    position: relative;
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+}
+
+.top {
+    display: block;
+    background: #9900ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
